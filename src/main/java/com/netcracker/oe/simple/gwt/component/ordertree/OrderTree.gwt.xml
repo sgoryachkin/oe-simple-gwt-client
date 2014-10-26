@@ -4,7 +4,5 @@
 
   <inherits name="com.google.gwt.user.User" />
   
-  <inherits name="com.gwtplatform.dispatch.rest.DispatchRest" />
-  <inherits name="com.github.nmorel.gwtjackson.GwtJackson" />
   
 </module>

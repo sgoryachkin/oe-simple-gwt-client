@@ -2,19 +2,17 @@
 
 <module>
 
-	<inherits name="com.google.gwt.user.theme.clean.Clean" />
-	<inherits name="com.gwtplatform.dispatch.rest.DispatchRest" />
-	<inherits name="com.github.nmorel.gwtjackson.GwtJackson" />
-	
-	
+	<inherits name="com.google.gwt.user.User" />
+
 	<!-- Components -->
-	
-	<inherits name="com.netcracker.oe.simple.gwt.component.application.Application"/>
-	<inherits name="com.netcracker.oe.simple.gwt.component.ordertree.OrderTree"/>
+
+	<inherits
+		name="com.netcracker.oe.simple.gwt.component.application.Application" />
+	<inherits name="com.netcracker.oe.simple.gwt.component.ordertree.OrderTree" />
 
 
 	<!-- Entry Point -->
-	
+
 	<inherits name='com.gwtplatform.mvp.MvpWithEntryPoint' />
 
 	<set-configuration-property name="gin.ginjector.modules"
