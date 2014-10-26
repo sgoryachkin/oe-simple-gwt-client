@@ -2,12 +2,10 @@
 <module>
 
 	<inherits name="com.google.gwt.user.theme.clean.Clean" />
-
 	<inherits name="com.gwtplatform.dispatch.rest.DispatchRest" />
-
 	<inherits name="com.github.nmorel.gwtjackson.GwtJackson" />
 
-	<entry-point class="com.github.nmorel.gwtjackson.hello.client.Hello" />
+	<inherits name='com.gwtplatform.mvp.MvpWithEntryPoint'/>
 
 	<source path="client" />
 	<source path="shared" />
